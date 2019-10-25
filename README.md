@@ -28,7 +28,7 @@ filepath			/*filepath of excelfile based on importicd_template.xlsx. E.g. "C:/do
 ,formatname=group		/*name of the SAS formats name and description*/
 ,mode=passthrough		/*modes can be 'passthrough' or 'local'. If 'passthrough' the &where clause will use "substring()", whereas 'local' uses 'substr()*/
 ,diavar=b.diagnosis		/*name of the diagnosis variable in the proc.sql statement*/
-,countryvar=a.country 	    /*name of the country variable in the proc.sql statement*/
+,countryvar=a.country		/*name of the country variable in the proc.sql statement*/
 ,icdvar=b.icd			/*name of the icd variable in the proc.sql statement*/
 );
 ```
