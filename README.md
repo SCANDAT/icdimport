@@ -20,12 +20,19 @@ Dependencies: modified versions of CODEPICKER by Klaus Rostgaard (included in th
 ## Syntax
 
 %macro importicd(
+
 filepath				/*filepath of excelfile based on importicd_template.xlsx. E.g. "C:/documents/excel.xlsx") */
 ,icdtypes				/*icdtypes - format is e.g. 7SE for Swedish ICD7, or 8DK for Danish ICD8. Needs corresponding excelsheet with 'ICD' prefix* (included in template)*/
+
 ,output=import_icd		/*name of the output file*/
+
 ,formatname=group		/*name of the SAS formats name and description*/
+
 ,mode=passthrough		/*modes can be 'passthrough' or 'local'. If 'passthrough' the &where clause will use "substring()", whereas 'local' uses 'substr()*/
+
 ,diavar=b.diagnosis		/*name of the diagnosis variable in the proc.sql statement*/
+
 ,countryvar=a.country 	/*name of the country variable in the proc.sql statement*/
+
 ,icdvar=b.icd			/*name of the icd variable in the proc.sql statement*/
 );
