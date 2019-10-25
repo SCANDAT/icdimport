@@ -19,6 +19,7 @@ Dependencies: modified versions of CODEPICKER by Klaus Rostgaard (included in th
 
 ## Syntax
 
+````
 %macro importicd(
 
 filepath				/*filepath of excelfile based on importicd_template.xlsx. E.g. "C:/documents/excel.xlsx") */
@@ -36,3 +37,4 @@ filepath				/*filepath of excelfile based on importicd_template.xlsx. E.g. "C:/d
 
 ,icdvar=b.icd			/*name of the icd variable in the proc.sql statement*/
 );
+```
