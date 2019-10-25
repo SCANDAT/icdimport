@@ -22,7 +22,7 @@ Dependencies: modified versions of CODEPICKER by Klaus Rostgaard (included in th
 ````
 %macro importicd(
 
-filepath				/*filepath of excelfile based on importicd_template.xlsx. E.g. "C:/documents/excel.xlsx") */
+filepath			/*filepath of excelfile based on importicd_template.xlsx. E.g. "C:/documents/excel.xlsx") */
 ,icdtypes				/*icdtypes - format is e.g. 7SE for Swedish ICD7, or 8DK for Danish ICD8. Needs corresponding excelsheet with 'ICD' prefix* (included in template)*/
 
 ,output=import_icd		/*name of the output file*/
