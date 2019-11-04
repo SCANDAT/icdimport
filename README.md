@@ -10,7 +10,7 @@ It allows differentiation between SE and DK ICD-codes.;
 It generates the following;
 ````
 groupname.			- a SAS format with the group name for the corresponding group number;
-groupdescription.	- a SAS format with the group description for the corresponding group number;
+groupdescription.	  - a SAS format with the group description for the corresponding group number;
 &where 				- a global SAS macro variable to be used in a proc SQL statement (example below);
 &groupif			- a global SAS macro variable to be used in a data step (example below);
 import_icd			- SAS dataset with all the ICD codes, including country and ICD-version vars;
