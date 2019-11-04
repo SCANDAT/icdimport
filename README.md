@@ -1,4 +1,4 @@
-# icdimport
+# importicd
 
 SAS Macro for facilitating handling of ICD-codes, especially complex cases with multiple ICD-versions from multiple countries, and with multiple different groupings. 
 
@@ -11,7 +11,7 @@ The repository includes
 
 This macro requires the use of the excelfile template importicd_template.xlsx
 It allows differentiation between SE and DK ICD-codes.;
-
+![Image overview of Importicd](https://octodex.github.com/images/yaktocat.png)
 It generates the following;
 ````
 groupname.			- a SAS format with the group name for the corresponding group number;
