@@ -4,6 +4,11 @@ SAS Macro for facilitating handling of ICD-codes, especially complex cases with 
 
 Originally created for SCANDAT2 but can be easily adapted to be used with other datasets.
 
+The repository includes
+* importicd3.sas - the latest version of the macro
+* importicd_template - excel template used for the macro
+* importicd3_examples - some examples of the macro
+
 This macro requires the use of the excelfile template importicd_template.xlsx
 It allows differentiation between SE and DK ICD-codes.;
 
