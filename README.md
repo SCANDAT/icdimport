@@ -11,7 +11,7 @@ The repository includes
 
 This macro requires the use of the excelfile template importicd_template.xlsx
 It allows differentiation between SE and DK ICD-codes.;
-![Image overview of Importicd](https://octodex.github.com/images/yaktocat.png)
+![Image overview of Importicd](https://github.com/SCANDAT/importicd/blob/master/importicd%20overview.png)
 It generates the following;
 ````
 groupname.			- a SAS format with the group name for the corresponding group number;
